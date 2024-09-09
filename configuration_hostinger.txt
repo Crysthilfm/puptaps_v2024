@@ -1,0 +1,19 @@
+// BEFORE UPDATING THE FILES FROM THE WEBHOSTING.
+1. Download the public_html folder from the webhosting. Copy it.
+
+// AFTER UPDATING THE FILES FROM WEBHOSTING
+1. Change the public folder to public_puptaps
+2. Upload the downloaded public_html and upload it to the PUPTAPS folder then extract
+3. Change the database values of .env file
+
+Alumni Tracer DB
+
+DB: u395184583_puptaps_db
+username: u395184583_puptaps
+password: Ju:1ho]H
+
+4. Change the APP_URL of .env file to
+APP_URL=https://puptcapstone.net/puptaps/public_html
+
+5. Change the asset_url of config/livewire.php to
+ 'asset_url' => 'https://puptcapstone.net/puptaps/public_html',
