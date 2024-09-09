@@ -1,0 +1,152 @@
+.cssbuttons-io-button {
+ /* width: 140px; */
+ background: #ffffff;
+ color: #7B241C;
+ font-family: inherit;
+ padding: 0.2em;
+ padding-left: .6em;
+ font-size: 17px;
+ font-weight: 500;
+ border-radius: 5px;
+ border: none;
+ letter-spacing: 0.05em;
+ display: flex;
+ align-items: center;
+ /* box-shadow: inset 0 0 1.6em -0.6em #ffffff; */
+ overflow: hidden;
+ position: relative;
+ height: 2.3em;
+ padding-right: 3em;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cssbuttons-io-button .icon {
+ background: #7B241C;
+ margin-left: 1em;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 1.9em;
+ width: 2em;
+ /* border-radius: 50%; */
+ border-radius: 3px;
+ /* box-shadow: 0.1em 0.1em 0.6em 0.2em #7B241C; */
+ right: 0.2em;
+ transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.4em);
+    border-radius: 3px;
+}
+
+.cssbuttons-io-button:hover span {
+    color: #7B241C;
+}
+
+.cssbuttons-io-button:active .icon {
+ transform: scale(0.95);
+}
+
+/* Button for socials */
+.scene {
+    width: 9em;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube {
+    /* color: #ccc; */
+    cursor: pointer;
+    transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
+    transform-style: preserve-3d;
+    transform-origin: 100% 50%;
+    width: 9em;
+    height: 3em;
+}
+
+.cube:hover {
+    transform: rotateX(-90deg);
+}
+
+.side {
+    box-sizing: border-box;
+    position: absolute;
+    display: inline-block;
+    height: 3em;
+    width: 9em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: .8em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.top {
+    background: #7B241C;
+    color: #ffffff;
+    transform: rotateX(90deg) translate3d(0, 0, 1.5em);
+    /* box-shadow: inset 0 0 0 3px #fff; */
+}
+
+.front {
+    background: #ffffff;
+    color: #7B241C;
+    /* box-shadow: inset 0 0 0 3px #7B241C;  */
+    transform: translate3d(0, 0, 1.5em);
+}
+
+/* Login - Signup */
+.auth-btn {
+    /* width: 140px; */
+    background: #7B241C;
+    color: #ffffff;
+    font-family: inherit;
+    padding: 0.2em;
+    padding-left: .6em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    /* box-shadow: inset 0 0 1.6em -0.6em #ffffff; */
+    overflow: hidden;
+    position: relative;
+    height: 2.3em;
+    padding-right: 3em;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 7em;
+}
+
+.auth-btn .icon {
+    background: #ffffff;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.9em;
+    width: 2em;
+    /* border-radius: 50%; */
+    border-radius: 3px;
+    /* box-shadow: 0.1em 0.1em 0.6em 0.2em #7B241C; */
+    right: 0.2em;
+    transition: all 0.3s;
+    color: #7B241C;
+}
+
+.auth-btn:hover .icon {
+    width: calc(100% - 0.4em);
+    border-radius: 3px;
+}
+
+.auth-btn:hover span {
+    color: #7B241C;
+}
+
+.auth-btn:active .icon {
+transform: scale(0.95);
+}

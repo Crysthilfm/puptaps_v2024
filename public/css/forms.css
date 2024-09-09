@@ -1,0 +1,44 @@
+.form-module-body {
+    height: 60vh;
+}
+
+.progress-style {
+    height: 30px;
+}
+
+.thead-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+}
+
+.data-privacy {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.form-box-title {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.form-box-content {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.form-box-buttons {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+}

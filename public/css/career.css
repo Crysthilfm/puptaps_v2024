@@ -1,0 +1,40 @@
+.career-date {
+    font-size: 12px;
+}
+.career-post-profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.career-post-image-box {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.career-post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.career-img-full {
+    width: 100%;
+    height: 100%;
+}
+
+.active-career {
+    background: #78281F;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.career-submenu-button:hover {
+    background: #A93226;
+    color: #E5E7E9;
+    font-weight: bold;
+}
