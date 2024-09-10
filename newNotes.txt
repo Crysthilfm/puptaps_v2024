@@ -9,6 +9,7 @@ Prerequisite steps:
 1. Clone Repository
 2.1 Get saved DB .sql from Michael
 2.2 Get Vendor .zip
+2.3 Get .env from michael
 3. Create a db named puptaps_db in XAMPP or any SQL
 4. import the db's .sql file to the created puptaps_db
 5. Create a vendor folder in your local repo
