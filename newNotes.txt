@@ -1,0 +1,20 @@
+Updated PUPTAPS Install
+
+Prerequisite steps:
+- must have php installed
+- must have composer
+- must have xampp or any sql manager (XAMPP already has php)
+- Guide: https://www.youtube.com/watch?v=2qgS_MCvDfk
+
+1. Clone Repository
+2.1 Get saved DB .sql from Michael
+2.2 Get Vendor .zip
+3. Create a db named puptaps_db in XAMPP or any SQL
+4. import the db's .sql file to the created puptaps_db
+5. Create a vendor folder in your local repo
+6. extract vendor.zip in the vendor folder
+7. Open terminal
+8. run "php artisan key:generate"
+9. run "php artisan serve"
+
+** On testing: Make sure to use a copy of the db (always have a copy of the original)
