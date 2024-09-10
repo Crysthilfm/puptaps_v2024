@@ -1,0 +1,30 @@
+Troubleshooting common problems
+
+-------------------------------------------------------------------------------------------------------------------
+Alumni answered wrong in EIF, PDS, or SAS
+
+- You can reset their form by...
+1. Open your database management (phpMyAdmin)
+2. Open the alumni table
+3.1 Search for their student_number or name using the search tab on the top of phpMyAdmin
+3.2 Make a search query in the SQL tab
+	SELECT * FROM tbl_alumni where tbl_alumni.stud_number = //Input the student number here//
+	SELECT * FROM tbl_alumni where tbl_alumni.last_name = //Input their surname here//
+4 Copy their alumni_id based on the result of the search
+5 Go to the form table where they made a mistake
+	eg. [form_eif_answers] [form_sas_answers] [form_pds_answers]
+6.1 On the search tab search for their alumni_id
+6.2 Make a search query in the SQL tab
+	SELECT * FROM //Input the name of the table here// WHERE alumni_id = //Paste the alumni_id here//
+-------------------------------------------------------------------------------------------------------------------
+Alumni has a discrepancy or wrong data in their acc
+
+- You can manually fix their data by
+1. Open your database management (phpMyAdmin)
+2. Open the alumni table
+3.1 Search for their student_number or name using the search tab on the top of phpMyAdmin
+3.2 Make a search query in the SQL tab
+	SELECT * FROM tbl_alumni where tbl_alumni.stud_number = //Input the student number here//
+	SELECT * FROM tbl_alumni where tbl_alumni.last_name = //Input their surname here//
+4. Find the problem in their data eg. (Wrong middle name, missing religion, wrong birthday etc...)
+4.1 You can just double click the wrong data, and manually type in the correct one.
